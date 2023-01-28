@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-
+import logo from './Component 1.png';
 const Navbar = () => {
   const [walletAddress, setWalletAddress] = useState('');
   const walletConnect = async () => {
@@ -25,7 +25,9 @@ const Navbar = () => {
   return (
     <>
       <nav className='navbar'>
-        <div className='left-nav'>{/* <p>edgeXgame</p> */}</div>
+        <div className='left-nav'>
+          <img src={logo} alt='' className='logo-btn' />
+        </div>
         <h3 className='new-head'>EdgeXGame</h3>
         <div className='right_nav'>
           <Link to='/' className='nav-link'>

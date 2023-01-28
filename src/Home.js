@@ -6,12 +6,13 @@ import img2 from './Home.png';
 import img3 from './img3.jpeg';
 import img4 from './img3.jpeg';
 import img7 from './new.jpeg';
+import img9 from './new-img.jpeg';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import sm1 from './wallet 4.png';
 import sm2 from './cloud-plus 1.png';
 import sm3 from './tags 1.png';
-import sm4 from './wallet 4.png';
+import sm4 from './folder-plus 3.png';
 // import './style.css';
 
 const spanStyle = {
@@ -33,13 +34,13 @@ const divStyle = {
 };
 const slideImages = [
   {
-    url: img3,
-  },
-  {
     url: img7,
   },
   {
     url: img4,
+  },
+  {
+    url: img9,
   },
 ];
 
@@ -60,7 +61,17 @@ const Home = () => {
             </div>
           </div>
           <div className='side-head'>
-            <h3>A NEW PERSPECTIVE</h3>
+            <div className=''>
+              <h3>A NEW PERSPECTIVE</h3>
+              <p>
+                Digital marketplace for collectibles and non-fungible tokens.
+                Buy, sell, and discover exclusive digital assets.
+              </p>
+              <div className='btn-container'>
+                <button className='exp exp-1'>Explore</button>
+                <button className='exp exp-2'>Know More</button>
+              </div>
+            </div>
           </div>
         </div>
         <div className='main-content'>
@@ -84,21 +95,28 @@ const Home = () => {
             </Slide>
           </div>
         </div>
-        {/* <div className='what-app-does'>
-          <div className='do-1'>
+        <br />
+        <br />
+        <br />
+        <br />
+        <div className='what-app-does'>
+          <div className='do do-1'>
             <img src={sm1} alt='' />
+            <p>Create Your Wallet</p>
           </div>
-        </div>
-        <div className='what-app-does'>
-          <div className='do-2'>
+          <div className='do do-2'>
+            <img src={sm4} alt='' />
+            <p>Add Your NFT</p>
+          </div>
+          <div className='do do-2'>
             <img src={sm2} alt='' />
+            <p>Enjoy The Game</p>
+          </div>
+          <div className='do do-3'>
+            <img src={sm3} alt='' />
+            <p>Buy/Sell The NFT</p>
           </div>
         </div>
-        <div className='what-app-does'>
-          <div className='do-3'>
-            <img src={sm3} alt='' />
-          </div> 
-        </div>*/}
       </div>
     </>
   );
