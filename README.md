@@ -21,9 +21,45 @@ Project *[link](https://mlh.io)*
 4. Building active gamified community.
 5. Building on single chain hence no chance for Money laundering.
 
-## Project Architectture:
+## Project Architecture:
 
-<img src="https://twitter.com/967b967c-c801-4624-8987-7850400581e5"/>
+![lnmhack project architecture](https://twitter.com/967b967c-c801-4624-8987-7850400581e5)  
+
+## USP:
+
+1. **Secondary** NFT Marketplace
+2. Safe **Affordable** as well as **Rewardable** for fellow *Gamers*.
+3. Active gaming **community**.
+4. Tracking game ownership.
+
+## Revenue Model:
+
+> Automated Royalty once the NFT is initiated in a **Circulation** for the *Whitelisted seller*, Our **Project** as well as *Registered users*. 
+
+## Future Aspect:
+
+Lending option for the **gated NFT.
+
+## Tech Stacks:
+
+1. Metamask
+2. React.js
+3. Solidity
+4. Ether.js
+5. Polygon.tech
+6. Html
+7. Css
+8. Javascript
+
+## Our Team:
+
+Charchit Kumawat-> [twitter](https://twitter.com/Charchit_WEB3)
+</br>
+Ayan Panchariya-> [twitter](https://twitter.com/Sud0_Cr4ckH3ad)
+</br>
+Atharv Gulati-> [twitter](https://twitter.com/GulatiAtharv)
+</br>
+Ankit Gupta-> [twitter](https://twitter.com/_this_ankit)
 
 # Sample Hardhat Project
 
